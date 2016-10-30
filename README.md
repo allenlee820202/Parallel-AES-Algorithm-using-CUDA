@@ -3,11 +3,11 @@ This project parallelized the process of AES encryption with CUDA. We can enhanc
 
 AES program first encrypt the input file with the user-defined key file. Then, to check the correctness of our encryption, we decrypt the encrypted file using the same key file.
 
-#compile using Makefile
+#Compile using Makefile
 
 make
 
-#run
+#Run
 // ./AES [file to encrypt] [key file] [filename of encrypted file] [filename of decrypted file]
 // for example, you can try encrypting provided "novel.txt" file with "key.txt" as a key file
 
